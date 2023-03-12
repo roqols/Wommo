@@ -5,31 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/home.css">
-    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script src="https://cdn.discordapp.com/avatars/361194641507117568/9d5a545eb8a2457f06e2ebd0d880e80c.png?size=64"></script>
+    <script src="https://cdn.discordapp.com/developers/applications/983563341765177344/discord-login.js"></script>    
     <title>Wommo</title>
 </head>
 <body>
 
     <script>
-      function signIn() {
-
-        gapi.auth2.getAuthInstance().signIn().then(
-          function(success) {
-            console.log(JSON.stringify(success));
-          },
-          function(error) {
-            console.log(JSON.stringify(error));
-          }
-        );
-      }
-      gapi.load('auth2', function() {
-        gapi.auth2.init({
-          client_id: '1074200913635-h1qtkt2tgtsndc26afubj3m3cs10rlpa.apps.googleusercontent.com'
-        });
-      });
-    </script>
-    
-    <button onclick="signIn()">Login com o Google</button>
+        function login() {
+          DiscordOauth2.popup()
+            .then(token => console.log(token))
+            .catch(console.error);
+        }
+        </script>
+        
+    <button onclick="login()">Login com o Discord</button>
 
     <div class="Links">
         <div class="lib"><a href="">Home</a></div>
