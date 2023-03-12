@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/home.css">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <title>Wommo</title>
+</head>
+<body>
+
+    <button onclick="authorize()">Login com o Google</button>
+
+<script src="https://apis.google.com/js/platform.js"></script>
+<script>
+  function authorize() {
+    gapi.auth2.authorize({
+      client_id: '1074200913635-h1qtkt2tgtsndc26afubj3m3cs10rlpa.apps.googleusercontent.com',
+      scope: 'profile email',
+      response_type: 'id_token permission'
+    }, function(response) {
+      // Handle the response from the server
+    });
+  }
+</script>
+
+
+
+    <div class="Links">
+        <div class="lib"><a href="">Home</a></div>
+        <div class="lib"><a href="">Biblioteca</a></div>
+        <div class="lib"><a href="">Apoiar</a></div>
+        <div class="lib" data-onsuccess="onSignIn">
+            <svg class="Loginb" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="wheat" class="bi bi-person-circle" viewBox="0 0 16 16">
+            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+          </svg>
+          &nbsp
+          <a href="">Login</a></div>
+    </div>
+    
+</body>
+</html>
