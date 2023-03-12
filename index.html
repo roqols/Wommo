@@ -10,22 +10,26 @@
 </head>
 <body>
 
-    <button onclick="authorize()">Login com o Google</button>
+    <script>
+      function signIn() {
 
-<script src="https://apis.google.com/js/platform.js"></script>
-<script>
-  function authorize() {
-    gapi.auth2.authorize({
-      client_id: '1074200913635-h1qtkt2tgtsndc26afubj3m3cs10rlpa.apps.googleusercontent.com',
-      scope: 'profile email',
-      response_type: 'id_token permission'
-    }, function(response) {
-      // Handle the response from the server
-    });
-  }
-</script>
-
-
+        gapi.auth2.getAuthInstance().signIn().then(
+          function(success) {
+            console.log(JSON.stringify(success));
+          },
+          function(error) {
+            console.log(JSON.stringify(error));
+          }
+        );
+      }
+      gapi.load('auth2', function() {
+        gapi.auth2.init({
+          client_id: '1074200913635-h1qtkt2tgtsndc26afubj3m3cs10rlpa.apps.googleusercontent.com'
+        });
+      });
+    </script>
+    
+    <button onclick="signIn()">Login com o Google</button>
 
     <div class="Links">
         <div class="lib"><a href="">Home</a></div>
