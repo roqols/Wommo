@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    background-color: rgb(17, 17, 20);
+}
+
+h1,h2,p,a,button {
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+.Links {
+    display: flex;
+    justify-content: center;
+}
+
+.lib {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(21, 21, 27);
+    transition: 0.2s;
+}
+
+.lib:hover {
+    border: solid;
+    border-color: rgb(241, 215, 167);
+    border-width: 1px;
+    padding: 1%;
+}
+
+.loginb:hover {
+    cursor: pointer;
+}
+
+.g-signout2:hover {
+    cursor: pointer;
+}
+
+.a33 {
+    margin: 5px;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(21, 21, 27);
+    padding: 15px;
+    padding-left: 80px;
+    padding-right: 80px;
+    text-decoration: none;
+    transition: 0.3s;
+    display:flex;
+    justify-content: center;
+}
+
+.a33:hover {
+    border: solid;
+    border-color: rgb(241, 215, 167);
+    border-width: 1px;
+    margin: 10px;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.int1 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.int {
+    border-radius: 10px;
+    width: 25%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.footer {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.int2 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.int22 {
+    border-radius: 10px;
+    width: 1000px;
+    height: 600px;
+    display:flex;
+    align-items: top;
+    justify-content: center;
+    background-color: rgb(21, 21, 27);
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+}
+
+.numer {
+    border-radius: 10px;
+    background-color: rgb(14, 14, 17);
+    margin: 20px;
+    width: 25%;
+    height: 280px;
+    justify-content: center;
+    text-align: center;
+}
+
+.imaget {
+    padding-top: 24px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    background: url(https://media.discordapp.net/attachments/763848072068988951/1074071401939603496/Sem_titulo.png) no-repeat 80%;
+}

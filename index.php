@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/home.css">
+
+    <title>Wommo</title>
+</head>
+<body>
+
+        <div class="imaget">
+             <!--Nav-->
+  
+
+            <br><br><br><br><br><br><br>
+            <p style="font-size: 60px;display: flex;justify-content: center;">Wommo</p>
+            <br><br><br><br>
+            <div class="nav">
+                <div class="navbar2">
+                    
+                    <a class="a33" href="">Download</a>
+                </div>
+                <div class="navbar2">
+                    <a class="a33"   href="">Donation</a>
+                </div>
+            </div>
+            <div class="Links">
+              <div class="lib"><a href="">Home</a></div>
+              <div class="lib"><a href="">Library</a></div>
+              <div class="lib"><a href="">Community</a></div>
+              <div class="lib" data-onsuccess="onSignIn">
+                  <svg class="Loginb" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-person-circle" viewBox="0 0 16 16">
+                  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                  <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                </svg>&nbsp<a class="loginb" href="login.php">Login<a></div>
+              <div class="lib" style="display: none;">
+                <svg style="display: flex;align-items:center" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-box-arrow-left" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M6 12.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v2a.5.5 0 0 1-1 0v-2A1.5 1.5 0 0 1 6.5 2h8A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 5 12.5v-2a.5.5 0 0 1 1 0v2z"/>
+                  <path fill-rule="evenodd" d="M.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L1.707 7.5H10.5a.5.5 0 0 1 0 1H1.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3z"/>
+                </svg><a class="g-signout2" onclick="onSignOut()">Logout<a></a></div>
+          </div>
+        </div>
+
+   
+<br>
+    <div class="int1">
+        <div class="int">
+            
+            <p style="font-size: 30px;">Features</p>
+    </div>
+    </div>
+    <br><br>
+    <div class="links">
+        <div class="numer">
+            <br><br>
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-music-note-list" viewBox="0 0 16 16">
+              <path d="M12 13c0 1.105-1.12 2-2.5 2S7 14.105 7 13s1.12-2 2.5-2 2.5.895 2.5 2z"/>
+              <path fill-rule="evenodd" d="M12 3v10h-1V3h1z"/>
+              <path d="M11 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 16 2.22V4l-5 1V2.82z"/>
+              <path fill-rule="evenodd" d="M0 11.5a.5.5 0 0 1 .5-.5H4a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 7H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 3H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+              <br><br>
+              <p style="margin-top: 10px;font-size: 25px;">No ads</p>
+              <br><br>
+              <p>Listen without being interrupted.</p>
+              
+            </div>
+            <div class="numer">
+                <br><br>
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-check-circle" viewBox="0 0 16 16">
+                  <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                  <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+                </svg>
+                  <br><br>
+                  <p style="margin-top: 10px;font-size: 25px;">Free</p>
+                  <br><br>
+                  <p>No fine print, here you listen for free.
+                  </p>
+                  
+                </div>
+                <div class="numer">
+                    <br><br>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-database-lock" viewBox="0 0 16 16">
+                      <path d="M13 5.698a4.92 4.92 0 0 1-.904.525C11.022 6.711 9.573 7 8 7s-3.022-.289-4.096-.777A4.92 4.92 0 0 1 3 5.698V7c0 .374.356.875 1.318 1.313C5.234 8.729 6.536 9 8 9c.666 0 1.298-.056 1.876-.156-.43.31-.804.693-1.102 1.132A12.31 12.31 0 0 1 8 10c-1.573 0-3.022-.289-4.096-.777A4.92 4.92 0 0 1 3 8.698V10c0 .374.356.875 1.318 1.313C5.234 11.729 6.536 12 8 12h.027a4.548 4.548 0 0 0-.017.8A1.9 1.9 0 0 0 8 13c-1.573 0-3.022-.289-4.096-.777A4.916 4.916 0 0 1 3 11.698V13c0 .374.356.875 1.318 1.313C5.234 14.729 6.536 15 8 15c0 .363.097.704.266.997C8.178 16 8.089 16 8 16c-1.573 0-3.022-.289-4.096-.777C2.875 14.755 2 14.007 2 13V4c0-1.007.875-1.755 1.904-2.223C4.978 1.289 6.427 1 8 1s3.022.289 4.096.777C13.125 2.245 14 2.993 14 4v4.256a4.493 4.493 0 0 0-1.753-.249C12.787 7.654 13 7.289 13 7V5.698Zm-8.682-3.01C3.356 3.124 3 3.625 3 4c0 .374.356.875 1.318 1.313C5.234 5.729 6.536 6 8 6s2.766-.27 3.682-.687C12.644 4.875 13 4.373 13 4c0-.374-.356-.875-1.318-1.313C10.766 2.271 9.464 2 8 2s-2.766.27-3.682.687Z"/>
+                      <path d="M9 13a1 1 0 0 1 1-1v-1a2 2 0 1 1 4 0v1a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1v-2Zm3-3a1 1 0 0 0-1 1v1h2v-1a1 1 0 0 0-1-1Z"/>
+                    </svg>
+                      <br><br>
+                      <p style="margin-top: 10px;font-size: 25px;">Security</p>
+                      <br><br>
+                      <p>All your information is protected by encryption.</p>
+                      
+                    </div>
+
+    </div>
+
+    <div class="footer">
+        <p>© Wommo 2023</p>
+    </div>
+
+</body>
+</html>
